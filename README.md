@@ -1,6 +1,7 @@
 **This is an rickroll with autoplay!** 
 
 Here is the Link: https://rr.sdtoll.de
+Or the not so obvious Link: https://go.sdtoll.de/t8ar4
 
 
 
