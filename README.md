@@ -1,6 +1,6 @@
 **This is an rickroll with autoplay!** 
 
-Here is the Link: https://a.rr.sdtoll.de
+Here is the Link: https://rr.sdtoll.de
 
 
 
