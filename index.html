@@ -1,33 +1,30 @@
 <!DOCTYPE html>
-<html>
-   <body>
-       <video autoplay loop width="100%">
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loading...</title>
+</head>
+<body>
+    <!-- Video-Player -->
+    <video autoplay loop width="100%" muted playsinline>
+        <source src="https://cdn.mtdv.me/video/rick.mp4" type="video/mp4">
+        Sorry, dein Browser unterstützt dieses Video nicht.
+    </video>
 
-    <source src="rickroll.mp4"
-            type="video/mp4">
+    <script>
+        // Optional: automatische Weiterleitung oder Titeländerung
+        const pageTitle = "Rickroll!";
 
-    Sorry, your browser doesn't support embedded videos.
-</video>
-      <script>
-         // Change the variables below to your liking
-         const currentURL = "rickroll.mp4";
-         const pageTitle = "Loading...";
-         // End of changable variables
-         
-         function setTitle() {
+        function setTitle() {
             document.title = pageTitle;
-         }
-         
-         function redirect() {
-            window.location.href = currentURL;
-         }
-         
-         function onload() {
+        }
+
+        // onload Handler
+        window.onload = function() {
             setTitle();
-            redirect();
-         }
-         
-         window.onload = onload();
-       </script>
-   </body>
+            // window.location.href = "https://andere-seite.com"; // optional, falls du weiterleiten willst
+        }
+    </script>
+</body>
 </html>
